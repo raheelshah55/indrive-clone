@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000'; // Keep as localhost for your laptop
+const API_URL = 'https://indrive-backend-00vw.onrender.com'; // Keep as localhost for your laptop
 
 function App() {
   const [email, setEmail] = useState('ali@test.com');
