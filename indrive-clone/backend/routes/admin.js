@@ -73,5 +73,4 @@ router.put('/settings', verifyToken, async (req, res) => {
         res.status(500).json({ message: "Server error" });
     }
 });
-//for update
 module.exports = router;
